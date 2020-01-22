@@ -1,0 +1,46 @@
+html {
+	font-family: 'Nobile', sans-serif;
+	text-align: center;
+	overflow: hidden;
+	background: url("../img/bg.jpg") no-repeat fixed;
+	background-position: center cover;
+	background-size: 110% 110%;
+	-webkit-animation: bg 9s ease-in-out infinite alternate;
+    animation: bg 9s ease-in-out infinite alternate;
+}
+@-webkit-keyframes bg {
+    0% {
+        background-position: left top;
+	}
+    to {
+        background-position: right bottom;
+	}
+}
+@keyframes bg {
+    0% {
+        background-position: left top;
+	}
+    to {
+        background-position: right bottom;
+	}
+}
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.footer {
+	font-size: 15px;
+	color: #fff;
+	margin-top: 30px;
+}
+h1 {
+	color: #fff;
+	text-decoration: none;
+}
+h1:hover {
+	text-decoration: underline;
+	color: white;
+}
