@@ -1,0 +1,93 @@
+
+
+:root {
+	--main-cor: #fcb900
+}
+
+body {
+	color: #c8c8c8
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	list-style-type: none
+}
+
+.container {
+	padding-right: 50px;
+	padding-left: 50px;
+	max-width: 1170px;
+	margin: auto
+}
+
+.server-list-container {
+	margin-bottom: 20px;
+	background: #fff;
+	-webkit-box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1)
+}
+
+.server-list-container .server-list-header {
+	background: var(--main-color);
+	padding: 30px;
+	border-bottom: 4px solid rgba(0, 0, 0, 0.1)
+}
+
+.server-list-container .server-list-header p {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff
+}
+
+.server-list-container .server-list-corp {
+	background: #2c3136;
+	padding: 25px;
+	border-bottom: 2px solid #262b2f;
+	overflow: hidden
+}
+
+.server-list-container .server-list-corp .server-logo {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	line-height: 100px
+}
+
+.server-list-container .server-list-corp .server-logo img {
+	max-width: 100%;
+	vertical-align: middle
+}
+
+.server-list-container .server-list-corp .server-list-stanga {
+	float: left
+}
+
+.server-list-container .server-list-corp .server-list-dreapta {
+	padding-left: 120px
+}
+
+.server-list-container .server-list-corp .server-list-dreapta .server-description {
+	margin-top: 10px;
+	line-height: 20px
+}
+
+.server-list-container .server-list-corp .server-list-dreapta .server-list-dreapta-block h1 {
+	font-size: 15pt;
+	font-weight: 600
+}
+
+.server-list-container .server-list-corp .server-list-dreapta .server-list-dreapta-block h1 .server-cutie-jucatori {
+	font-size: 13px;
+	background: #262b2f;
+	font-weight: 700;
+	padding: 5px 8px;
+	float: right
+}
+
+.server-list-container .server-list-corp .server-list-dreapta .server-list-dreapta-block h1 .server-cutie-jucatori span {
+	color: var(--main-color)
+}
+
+
